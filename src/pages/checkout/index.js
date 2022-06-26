@@ -1,4 +1,5 @@
 import Header from "../../components/header";
+import Product from "../../components/product/list";
 import './styles.css';
 
 const Checkout = () => {
@@ -144,9 +145,7 @@ const Checkout = () => {
               <h4>Minha Sacola  </h4>
 
               <div className="row products">
-                {/* {cart.map((p) => (
-                  <Product produto={p} />
-                ))} */}
+                  <Product  />   
               </div>
             </div>
           </div>
